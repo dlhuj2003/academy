@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Assets/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="Assets/fontawesome/all.min.css">
+  <link rel="stylesheet" href="Assets/fontawesome/fontawesome.min.css">
+  <link rel="stylesheet" href="Assets/swiper/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- HEADER SECTION    -->
+
+  <header id="header">
+    <!-- LOGO    -->
+    <div class="logo">
+      <img src="Assets/Images/Logos/BigScreenLogo.png" alt="logo image" id="BigScreenLogo" />
+      <img src="Assets/Images/Logos/SmallScreenLogo.png"" alt=" logo image" id="SmallScreenLogo" />
+    </div>
+
+    <!-- NAVIGATION BAR   -->
+    <nav class="navBar" id="navBar">
+      <ul class="nav">
+        <div class="closeBox">
+          <div id="closeMenu">
+            <i class="fa fa-times" id="times"></i>
+          </div>
+        </div>
+        <li>
+          <a class="nav-link " href="Index.html">Home</a>
+        </li>
+
+        <li>
+          <a class="nav-link " href="about.html">About</a>
+        </li>
+        <li class="dropdown" id="drop1">
+          <a href="javascript:void(0)"><span class="services">Our Services</span> <i class="bi bi-chevron-down"></i></a>
+          <ul id="container1">
+            <li class="dropdown" id="drop2">
+              <a href="javascript:void(0)"><span>ICT Training</span> <i class="bi bi-chevron-down"></i></a>
+              <ul id="container2">
+                <li><a href="#">Desktop Publishing</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <a href="courses.html" class="courseMore" style="border-radius: 2px; display: inline-block; width: 100%; ">View
+                  More</a>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="getIntouch active">Get in touch</a></li>
+      </ul>
+    </nav>
+
+    <!-- NAV MENU  -->
+    <div id="action">
+      <!-- SEARCH  -->
+      <div class="searchBtn" id="searchBtn">
+        <i class="bi bi-search"></i>
+      </div>
+      <div class="searchBackDrop" id="searchBackDrop">
+        <!-- <div class="closeSearch" id="closeSearch">
+        <i class="fa fa-times"></i>
+      </div> -->
+
+        <form action="#" id="searchForm">
+          <label for="searchInput">
+            <i class="bi bi-search formIcon"></i>
+          </label>
+          <input type="text" placeholder="Search Course..." id="searchInput">
+        </form>
+
+      </div>
+      <div class="toggler" id="toggler">
+        <i class="fa fa-bars-staggered mobile-nav-toggle " id="toggle"></i>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="contact section" id="contact">
+      <div class="sectionHeader">
+        <h2>contact <span>us</span></h2>
+      </div>
+
+      <div class="contactContainer">
+        <div class="infoItem">
+          <div class="infoIcon">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <div class="info">
+            <p><a href="mailto:infinitytechworldofficial@gmail.com"> info@gmail.com</a></p>
+          </div>
+        </div>
+
+        <div class="infoItem">
+          <div class="infoIcon">
+            <i class="bi bi-telephone"></i>
+          </div>
+          <div class="info">
+            <p>+234 802 960 4117</p>
+          </div>
+        </div>
+
+        <div class="infoItem">
+          <div class="infoIcon">
+            <i class="bi bi-geo-alt"></i>
+          </div>
+          <div class="info">
+            <p>No 1 Secretariat Rd, Aroma Junction Awka Anambra state</p>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container " id="formField">
+        <div class="row">
+          <!-- FORM  -->
+          <div class=" col-lg-5 col-12 offset-lg-1">
+            <p class="mb-4 pb-2">For registration questions please get in touch
+              using the contact details above. For any questions use the form below
+            </p>
+
+            <form action="#" method="post" class="contact-form webform" role="form">
+              <input type="text" class="form-control text-secondary rounded" name="cf-name" placeholder="Name">
+
+              <input type="email" class="form-control text-secondary rounded" name="cf-email" placeholder="Email">
+
+              <textarea class="form-control text-secondary rounded" rows="5" name="cf-message"
+                placeholder="Message"></textarea>
+
+              <button type="submit" class="readMore formBtn " id="submit-button" name="submit">Submit</button>
+            </form>
+          </div>
+          <!-- MAP  -->
+          <div class="mx-auto mt-4 mt-lg-0  col-lg-4 col-12">
+            <div class="google-map rounded">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2255364547595!2d7.079898575029095!3d6.233972826460108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1043830053c9ed5b%3A0xd88a287c3dc9b6dd!2sAroma!5e0!3m2!1sen!2sng!4v1715223651347!5m2!1sen!2sng"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SCROLLTOTOP BUTTON  -->
+  <div id="scroll-Top">
+    <div class="return-to-top">
+      <i class="bi bi-arrow-up-short " id="scroll-top"></i>
+    </div>
+  </div>
+
+  <script src="Assets/jquery.min.js"></script>
+  <script src="Assets/swiper/swiper-bundle.min.js"></script>
+  <script src="Assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
